@@ -3,6 +3,6 @@ output "variable"{
 }
 
 output "variable2"{
-    value = "my first variable ${sample}"
+    value = "my first variable ${var.sample}"
 
 }
