@@ -1,3 +1,3 @@
 variable "sample"{
-    value = "hello lahari"
+    default = "hello lahari"
 }
