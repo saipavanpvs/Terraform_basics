@@ -24,4 +24,4 @@ variable "map"{
 
 variable "city" {}
 
-varaible "state"{}
+variable "state"{}
