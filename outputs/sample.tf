@@ -24,3 +24,6 @@ output "vars"{
 output "vars1"{
     value= var.state
 }
+output "country"{
+    value=var.country
+}

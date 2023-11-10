@@ -25,3 +25,4 @@ variable "map"{
 variable "city" {}
 
 variable "state"{}
+variable "country"{}
