@@ -14,6 +14,6 @@ output "list_out"{
 }
 
 output "map_out"{
-    value = var.map[tarining]
+    value = var.map[traiing]
 }
 
