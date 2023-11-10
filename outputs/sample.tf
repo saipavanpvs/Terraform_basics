@@ -17,3 +17,7 @@ output "map_out"{
     value = var.map["traiing"]
 }
 
+output "vars"{
+    value =var.city
+}
+

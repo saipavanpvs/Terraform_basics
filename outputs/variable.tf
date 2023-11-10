@@ -17,5 +17,9 @@ variable "map"{
     default ={
         traiing ="CLOUD",
         value =2000
+    }
 }
-}
+
+######################declaring an empty variable and passing the value#####
+
+variable "city" {}
