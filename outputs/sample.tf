@@ -6,3 +6,9 @@ output "variable2"{
     value = "my first variable ${var.sample}"
 
 }
+
+#list variable
+
+output "list_out"{
+    value = var.list[1]
+}
