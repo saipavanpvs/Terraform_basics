@@ -11,3 +11,11 @@ variable "list" {
     ]
 }
 
+#map variable
+
+variable "map"{
+    default =[
+        traiing ="CLOUD",
+        value =2000
+    ]
+}
