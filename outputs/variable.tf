@@ -23,3 +23,5 @@ variable "map"{
 ######################declaring an empty variable and passing the value#####
 
 variable "city" {}
+
+varaibel "state"{}

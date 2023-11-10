@@ -21,3 +21,6 @@ output "vars"{
     value =var.city
 }
 
+output "vars1"{
+    value= var.state
+}
