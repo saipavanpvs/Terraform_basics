@@ -4,10 +4,10 @@ variable "sample"{
 
 #list variable
 variable "list" {
-    default ={
+    default =[
         "sai"
         143
         "lahari"
-    }
+    ]
 }
 
