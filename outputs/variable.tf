@@ -3,5 +3,5 @@ variable "sample"{
 }
 
 output "variable"{
-    value = var.variable
+    value = var.sample
 }
