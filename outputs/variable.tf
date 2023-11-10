@@ -14,8 +14,8 @@ variable "list" {
 #map variable
 
 variable "map"{
-    default =[
+    default ={
         traiing ="CLOUD",
         value =2000
-    ]
+}
 }
