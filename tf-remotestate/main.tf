@@ -23,5 +23,5 @@ variable "service"{
 }
 
 output "private_ip"{
-    value=aws_instance.aws.*.private_dns
+    value=aws_instance.app.*.private_dns
 }
