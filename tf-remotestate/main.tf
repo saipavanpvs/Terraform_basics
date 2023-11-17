@@ -4,7 +4,7 @@ resource "aws_instance" "app" {
   instance_type = "t3.micro"
 
   tags = {
-    Name = "var.service[count.index]"
+    Name = "$(var.service[count.index])"
   }
 }
 
