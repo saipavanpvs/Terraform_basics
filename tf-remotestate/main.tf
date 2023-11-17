@@ -21,3 +21,7 @@ data "aws_ami" "aws" {
 variable "service"{
     default=["cart","payment","catalogue"]
 }
+
+output "private_ip"{
+    value=aws_instance.aws.${count.index}.private_dns
+}
